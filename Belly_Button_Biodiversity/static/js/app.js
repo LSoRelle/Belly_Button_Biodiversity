@@ -57,7 +57,7 @@ function buildCharts(sample) {
         color: data.otu_ids,
         size: data.sample_values,
     
-        // colorscale: "Viridis"
+        colorscale: "Viridis"
       }
     };
     var trace1 = [trace1];
