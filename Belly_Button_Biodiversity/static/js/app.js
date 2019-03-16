@@ -31,7 +31,7 @@ function buildMetadata(sample) {
     // tags for each key-value in the metadata.
     d3.json(urlMetadata).then(function(data){
       Object.entries(data).forEach(([key, value]) => {
-        sampleMetadata.append("h6").text(`${key}: ${value}`);
+        sampleMetadata.append("path").text(`${key}: ${value}`);
       )};
     )};
   };
